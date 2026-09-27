@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Sidebar Scroll",
+  "version": "1.1.0",
+  "description": "Keeps the YouTube video player fixed while the sidebar thumbnails remain scrollable.",
+  "content_scripts": [{
+    "matches": ["https://www.youtube.com/*"],
+    "js": ["content.js"],
+    "css": ["styles.css"],
+    "run_at": "document_idle"
+  }]
+}

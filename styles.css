@@ -1,0 +1,28 @@
+/* Markers are assigned to validated elements, including fallback matches. */
+[data-yss-active] [data-yss-primary] {
+  align-self: flex-start !important;
+}
+
+[data-yss-active] [data-yss-inner] {
+  position: relative;
+}
+
+[data-yss-active] [data-yss-player] {
+  position: sticky !important;
+  top: var(--yt-sidebar-scroll-top) !important;
+  z-index: 5;
+  background: var(--yt-spec-base-background, #0f0f0f);
+}
+
+[data-yss-active] [data-yss-sidebar] {
+  position: sticky !important;
+  top: var(--yt-sidebar-scroll-top) !important;
+  align-self: flex-start !important;
+  box-sizing: border-box !important;
+  max-height: var(--yt-sidebar-scroll-height) !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+  overscroll-behavior-y: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--yt-spec-text-secondary, #888) transparent;
+}

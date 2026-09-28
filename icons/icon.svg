@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <title>YouTube Sidebar Scroll</title>
+  <rect x="8" y="8" width="112" height="112" rx="24" fill="#172033"/>
+  <rect x="23" y="36" width="54" height="48" rx="10" fill="#ff4858"/>
+  <path d="M44 47 L44 73 L63 60 Z" fill="#fff"/>
+  <rect x="86" y="36" width="19" height="12" rx="3" fill="#fff"/>
+  <rect x="86" y="55" width="19" height="12" rx="3" fill="#fff"/>
+  <path d="M95.5 77 V94 M88.5 87 L95.5 94 L102.5 87" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
